@@ -2449,7 +2449,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.5.15":
+"preact@npm:^10.6.6":
   version: 10.6.6
   resolution: "preact@npm:10.6.6"
   checksum: d6a9581b222c60595f987be28738b68dabb3045f72043e2619af81e9ca00b2b0942717642bcfcaab77a0afa50a97cd35039139c7f425a62a4f02ceb793d8ef83
@@ -2898,10 +2898,10 @@ __metadata:
     "@tauri-apps/cli": ^1.0.0-rc.7
     "@yarnpkg/sdks": ^2.6.0
     babel-plugin-transform-hook-names: ^1.0.2
-    preact: ^10.5.15
+    preact: ^10.6.6
     prettier: ^2.6.0
-    typescript: ^4.5.4
-    vite: ^2.8.0
+    typescript: ^4.6.2
+    vite: ^2.8.6
   languageName: unknown
   linkType: soft
 
@@ -2965,7 +2965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.4":
+"typescript@npm:^4.6.2":
   version: 4.6.2
   resolution: "typescript@npm:4.6.2"
   bin:
@@ -2975,7 +2975,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
   version: 4.6.2
   resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
   bin:
@@ -3010,7 +3010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.8.0":
+"vite@npm:^2.8.6":
   version: 2.8.6
   resolution: "vite@npm:2.8.6"
   dependencies:
