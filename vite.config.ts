@@ -19,11 +19,16 @@ export default defineConfig({
           ],
           [
             '@babel/plugin-transform-react-jsx',
-            { pragma: '__cssprop' },
-            'twin.macro',
+            {
+              pragma: '__cssprop',
+              pragmaFrag: 'Fragment',
+            },
           ],
         ],
       },
     }),
   ],
+  esbuild: {
+    jsxInject: `import { Fragment } from 'preact'`,
+  },
 })
