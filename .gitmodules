@@ -1,0 +1,3 @@
+[submodule "preact-preset-vite"]
+	path = preact-preset-vite
+	url = https://github.com/Interpause/preact-preset-vite

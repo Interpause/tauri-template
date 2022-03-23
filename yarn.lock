@@ -397,9 +397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preact/preset-vite@https://github.com/ps73/preact-preset-vite#356a76addadc8a530d70d0e2b5a1a801921ae203":
+"@preact/preset-vite@file:./preact-preset-vite::locator=tauri-template%40workspace%3A.":
   version: 2.1.7
-  resolution: "@preact/preset-vite@https://github.com/ps73/preact-preset-vite.git#commit=356a76addadc8a530d70d0e2b5a1a801921ae203"
+  resolution: "@preact/preset-vite@file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.14.9
     "@babel/plugin-transform-react-jsx-development": ^7.16.7
@@ -412,7 +412,7 @@ __metadata:
   peerDependencies:
     "@babel/core": 7.x
     vite: 2.x
-  checksum: 4fbeeffe32c778ae5749aa3ac57ab2d279ac70d6a6ce215c88aba6b361d7d9c4b50de778c83379402ef7f305a22eb0c556e783a1f9d9844889db3c6484af322b
+  checksum: ae4112cddb11a5db52d370edaf25527c3b28d5d9ac106731f500bd7d9b71c3dcbbaa4f886d85da8e24ce422be0e683d6aaabd70349ed7d060ddc5b07a3daf82a
   languageName: node
   linkType: hard
 
@@ -2990,7 +2990,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.8
     "@babel/plugin-transform-react-jsx": ^7.17.3
-    "@preact/preset-vite": "https://github.com/ps73/preact-preset-vite#356a76addadc8a530d70d0e2b5a1a801921ae203"
+    "@preact/preset-vite": ./preact-preset-vite
     "@tauri-apps/api": ^1.0.0-rc.2
     "@tauri-apps/cli": ^1.0.0-rc.7
     "@twind/preact": ^1.0.5
