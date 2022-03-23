@@ -8,7 +8,7 @@ Figuring out how to use Tauri, then configuring it to match my development style
 - Yarn 2 Zero-Installs
 - Vite (sorry Babel macros...)
 - Preact framework (Typescript)
-- twind CSS-in-JS
+- twin.macro + Emotion CSS-in-JS
 
 ## @preact/preset-vite
 
