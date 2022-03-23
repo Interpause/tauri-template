@@ -7,6 +7,7 @@ export default defineConfig({
     preact({
       babel: {
         plugins: [
+          '@emotion/babel-plugin',
           'babel-plugin-macros',
           [
             '@emotion/babel-plugin-jsx-pragmatic',
