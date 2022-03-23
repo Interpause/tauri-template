@@ -240,7 +240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.14.9":
+"@babel/plugin-transform-react-jsx@npm:^7.14.9, @babel/plugin-transform-react-jsx@npm:^7.17.3":
   version: 7.17.3
   resolution: "@babel/plugin-transform-react-jsx@npm:7.17.3"
   dependencies:
@@ -2977,11 +2977,13 @@ __metadata:
   resolution: "tauri-template@workspace:."
   dependencies:
     "@babel/core": ^7.17.8
+    "@babel/plugin-transform-react-jsx": ^7.17.3
     "@preact/preset-vite": ^2.1.5
     "@tauri-apps/api": ^1.0.0-rc.2
     "@tauri-apps/cli": ^1.0.0-rc.7
     "@twind/preact": ^1.0.5
     "@yarnpkg/sdks": ^2.6.0
+    babel-plugin-transform-hook-names: ^1.0.2
     preact: ^10.6.6
     prettier: ^2.6.0
     twind: ^0.16.16
