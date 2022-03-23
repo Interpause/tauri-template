@@ -240,7 +240,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.14.9, @babel/plugin-transform-react-jsx@npm:^7.17.3":
+"@babel/plugin-transform-react-jsx-development@npm:^7.16.7":
+  version: 7.16.7
+  resolution: "@babel/plugin-transform-react-jsx-development@npm:7.16.7"
+  dependencies:
+    "@babel/plugin-transform-react-jsx": ^7.16.7
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: b6653d575ec38f5002b570604ad5dec4eec119fdb0c1dab177622b45f072e17791ca2f443626506947a32cb146e778500b595cb270e386b886d7bdd65b86d9e5
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx@npm:^7.14.9, @babel/plugin-transform-react-jsx@npm:^7.16.7, @babel/plugin-transform-react-jsx@npm:^7.17.3":
   version: 7.17.3
   resolution: "@babel/plugin-transform-react-jsx@npm:7.17.3"
   dependencies:
@@ -386,11 +397,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preact/preset-vite@npm:^2.1.5":
+"@preact/preset-vite@https://github.com/ps73/preact-preset-vite#356a76addadc8a530d70d0e2b5a1a801921ae203":
   version: 2.1.7
-  resolution: "@preact/preset-vite@npm:2.1.7"
+  resolution: "@preact/preset-vite@https://github.com/ps73/preact-preset-vite.git#commit=356a76addadc8a530d70d0e2b5a1a801921ae203"
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.14.9
+    "@babel/plugin-transform-react-jsx-development": ^7.16.7
     "@prefresh/vite": ^2.2.6
     "@rollup/pluginutils": ^4.1.1
     babel-plugin-transform-hook-names: ^1.0.2
@@ -400,7 +412,7 @@ __metadata:
   peerDependencies:
     "@babel/core": 7.x
     vite: 2.x
-  checksum: e7ccd500e9041c34d6742a26dabcdb7cf87354fc0ace8d1ffc5a96287720f4fe2a75992308556f52b69e5b93c1ca50745852b0676f8fd416443240ff3a97a145
+  checksum: 4fbeeffe32c778ae5749aa3ac57ab2d279ac70d6a6ce215c88aba6b361d7d9c4b50de778c83379402ef7f305a22eb0c556e783a1f9d9844889db3c6484af322b
   languageName: node
   linkType: hard
 
@@ -2978,7 +2990,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.17.8
     "@babel/plugin-transform-react-jsx": ^7.17.3
-    "@preact/preset-vite": ^2.1.5
+    "@preact/preset-vite": "https://github.com/ps73/preact-preset-vite#356a76addadc8a530d70d0e2b5a1a801921ae203"
     "@tauri-apps/api": ^1.0.0-rc.2
     "@tauri-apps/cli": ^1.0.0-rc.7
     "@twind/preact": ^1.0.5
