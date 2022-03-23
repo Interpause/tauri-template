@@ -1,6 +1,5 @@
 export const Logo = () => (
   <svg
-    class='logo'
     height='180px'
     viewBox='-256 -256 1800 512'
     title='Preact'
