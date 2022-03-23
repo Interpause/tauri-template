@@ -1,10 +1,9 @@
 import { Logo } from './logo'
-import { tw, setup } from '@twind/preact'
-setup()
+import 'twin.macro'
 
 export function App() {
   return (
-    <div tw='absolute inset-0 text(center white 2xl) pt-20 bg-purple-400'>
+    <div tw='absolute inset-0 text-center text-white text-2xl pt-20 bg-purple-400'>
       <Logo />
       <p>Hello Vite + Preact!</p>
       <p>
