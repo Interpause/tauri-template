@@ -1,7 +1,11 @@
 {
   "name": "tauri-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "very advanced template for nice things",
+  "author": "John-Henry Lim <hyphen@interpause.dev> (https://interpause.dev/)",
+  "repository": "https://github.com/Interpause/tauri-template.git",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
