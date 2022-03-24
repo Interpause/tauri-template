@@ -563,7 +563,7 @@ __metadata:
 
 "@preact/preset-vite@file:./preact-preset-vite::locator=tauri-template%40workspace%3A.":
   version: 2.1.7
-  resolution: "@preact/preset-vite@file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."
+  resolution: "@preact/preset-vite@file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."
   dependencies:
     "@babel/plugin-transform-react-jsx": ^7.14.9
     "@babel/plugin-transform-react-jsx-development": ^7.16.7
@@ -576,7 +576,7 @@ __metadata:
   peerDependencies:
     "@babel/core": 7.x
     vite: 2.x
-  checksum: ae4112cddb11a5db52d370edaf25527c3b28d5d9ac106731f500bd7d9b71c3dcbbaa4f886d85da8e24ce422be0e683d6aaabd70349ed7d060ddc5b07a3daf82a
+  checksum: 807e50e95c6387b80e764d9b10c626f5e84063099a97edbbd2f0671c9c7357461fcf87608ad8baf2b23970b09d6b6d67e261baa170e509745f20c6e284bca31e
   languageName: node
   linkType: hard
 

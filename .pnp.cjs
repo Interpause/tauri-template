@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/babel-plugin-jsx-pragmatic", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."],\
             ["@tauri-apps/api", "npm:1.0.0-rc.2"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.7"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
@@ -768,21 +768,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@preact/preset-vite", [\
-        ["file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A.", {\
-          "packageLocation": "./.yarn/cache/@preact-preset-vite-file-dce18124eb-ae4112cddb.zip/node_modules/@preact/preset-vite/",\
+        ["file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/@preact-preset-vite-file-b26616d250-807e50e95c.zip/node_modules/@preact/preset-vite/",\
           "packageDependencies": [\
-            ["@preact/preset-vite", "file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."]\
+            ["@preact/preset-vite", "file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A.", {\
-          "packageLocation": "./.yarn/__virtual__/@preact-preset-vite-virtual-f5190c02b0/0/cache/@preact-preset-vite-file-dce18124eb-ae4112cddb.zip/node_modules/@preact/preset-vite/",\
+        ["virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A.", {\
+          "packageLocation": "./.yarn/__virtual__/@preact-preset-vite-virtual-8bee025534/0/cache/@preact-preset-vite-file-b26616d250-807e50e95c.zip/node_modules/@preact/preset-vite/",\
           "packageDependencies": [\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."],\
             ["@babel/core", "npm:7.17.8"],\
             ["@babel/plugin-transform-react-jsx", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.17.3"],\
             ["@babel/plugin-transform-react-jsx-development", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.16.7"],\
-            ["@prefresh/vite", "virtual:f5190c02b083e8515ab488930c7ae099d41e8cc0ef71e758f407a62069346d3083fa41459099f0e6520b10e477a7c6850a2bd8e6669237deb7803dd5694ec2b5#npm:2.2.8"],\
+            ["@prefresh/vite", "virtual:8bee025534d2b51416101dc18405008766f6330127ae4fecf65379ffdddd0b26f35435551ee04b644d6524796d092320360b03afdb81f5a4d2477112e4d54e04#npm:2.2.8"],\
             ["@rollup/pluginutils", "npm:4.2.0"],\
             ["@types/babel__core", null],\
             ["@types/vite", null],\
@@ -818,10 +818,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:386a3a6d6af24fc2119ddf088cb50328f1e3f4ec72915e6ccb97782ce1c7f75b41b98b69dc9ff2559fcdf8114bb1dea8c849cc350685a328a4fb548f54465e3c#npm:1.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/@prefresh-core-virtual-8180ac3726/0/cache/@prefresh-core-npm-1.3.4-7ed00793e2-31c021bf0e.zip/node_modules/@prefresh/core/",\
+        ["virtual:ade2ea583cd4b963a407d49d5f073401ef4fedc5b384eb8c37d7e41fa1f86381db05074583f015a0df0f7c3da1351558cab1b389b0f6f5d367eb15fbe2fadb16#npm:1.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/@prefresh-core-virtual-4807b28645/0/cache/@prefresh-core-npm-1.3.4-7ed00793e2-31c021bf0e.zip/node_modules/@prefresh/core/",\
           "packageDependencies": [\
-            ["@prefresh/core", "virtual:386a3a6d6af24fc2119ddf088cb50328f1e3f4ec72915e6ccb97782ce1c7f75b41b98b69dc9ff2559fcdf8114bb1dea8c849cc350685a328a4fb548f54465e3c#npm:1.3.4"],\
+            ["@prefresh/core", "virtual:ade2ea583cd4b963a407d49d5f073401ef4fedc5b384eb8c37d7e41fa1f86381db05074583f015a0df0f7c3da1351558cab1b389b0f6f5d367eb15fbe2fadb16#npm:1.3.4"],\
             ["@types/preact", null],\
             ["preact", null]\
           ],\
@@ -849,13 +849,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f5190c02b083e8515ab488930c7ae099d41e8cc0ef71e758f407a62069346d3083fa41459099f0e6520b10e477a7c6850a2bd8e6669237deb7803dd5694ec2b5#npm:2.2.8", {\
-          "packageLocation": "./.yarn/__virtual__/@prefresh-vite-virtual-386a3a6d6a/0/cache/@prefresh-vite-npm-2.2.8-1babfb4682-97198d699f.zip/node_modules/@prefresh/vite/",\
+        ["virtual:8bee025534d2b51416101dc18405008766f6330127ae4fecf65379ffdddd0b26f35435551ee04b644d6524796d092320360b03afdb81f5a4d2477112e4d54e04#npm:2.2.8", {\
+          "packageLocation": "./.yarn/__virtual__/@prefresh-vite-virtual-ade2ea583c/0/cache/@prefresh-vite-npm-2.2.8-1babfb4682-97198d699f.zip/node_modules/@prefresh/vite/",\
           "packageDependencies": [\
-            ["@prefresh/vite", "virtual:f5190c02b083e8515ab488930c7ae099d41e8cc0ef71e758f407a62069346d3083fa41459099f0e6520b10e477a7c6850a2bd8e6669237deb7803dd5694ec2b5#npm:2.2.8"],\
+            ["@prefresh/vite", "virtual:8bee025534d2b51416101dc18405008766f6330127ae4fecf65379ffdddd0b26f35435551ee04b644d6524796d092320360b03afdb81f5a4d2477112e4d54e04#npm:2.2.8"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@prefresh/babel-plugin", "npm:0.4.3"],\
-            ["@prefresh/core", "virtual:386a3a6d6af24fc2119ddf088cb50328f1e3f4ec72915e6ccb97782ce1c7f75b41b98b69dc9ff2559fcdf8114bb1dea8c849cc350685a328a4fb548f54465e3c#npm:1.3.4"],\
+            ["@prefresh/core", "virtual:ade2ea583cd4b963a407d49d5f073401ef4fedc5b384eb8c37d7e41fa1f86381db05074583f015a0df0f7c3da1351558cab1b389b0f6f5d367eb15fbe2fadb16#npm:1.3.4"],\
             ["@prefresh/utils", "npm:1.1.3"],\
             ["@rollup/pluginutils", "npm:4.2.0"],\
             ["@types/preact", null],\
@@ -4506,7 +4506,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/babel-plugin-jsx-pragmatic", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=3b74d6&locator=tauri-template%40workspace%3A."],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."],\
             ["@tauri-apps/api", "npm:1.0.0-rc.2"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.7"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
