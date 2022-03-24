@@ -37,7 +37,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-react-jsx", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.17.3"],\
             ["@babel/plugin-transform-react-jsx-development", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.16.7"],\
             ["@emotion/babel-plugin", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.7.2"],\
-            ["@emotion/babel-plugin-jsx-pragmatic", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
             ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."],\
@@ -485,29 +484,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["find-root", "npm:1.1.0"],\
             ["source-map", "npm:0.5.7"],\
             ["stylis", "npm:4.0.13"]\
-          ],\
-          "packagePeers": [\
-            "@babel/core",\
-            "@types/babel__core"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@emotion/babel-plugin-jsx-pragmatic", [\
-        ["npm:0.1.5", {\
-          "packageLocation": "./.yarn/cache/@emotion-babel-plugin-jsx-pragmatic-npm-0.1.5-515e3ee1a1-d034e572d7.zip/node_modules/@emotion/babel-plugin-jsx-pragmatic/",\
-          "packageDependencies": [\
-            ["@emotion/babel-plugin-jsx-pragmatic", "npm:0.1.5"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5", {\
-          "packageLocation": "./.yarn/__virtual__/@emotion-babel-plugin-jsx-pragmatic-virtual-088087f2af/0/cache/@emotion-babel-plugin-jsx-pragmatic-npm-0.1.5-515e3ee1a1-d034e572d7.zip/node_modules/@emotion/babel-plugin-jsx-pragmatic/",\
-          "packageDependencies": [\
-            ["@emotion/babel-plugin-jsx-pragmatic", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5"],\
-            ["@babel/core", "npm:7.17.8"],\
-            ["@babel/plugin-syntax-jsx", "virtual:1afa6b9394634a98c4ae7d929f38e537a814e14636eddcfd4675dd21376b1a66163db20483e22e81fd7dd894a0761fdc7c8b92e1d7278a6dd2bbc5135d103cdd#npm:7.16.7"],\
-            ["@types/babel__core", null]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -4503,7 +4479,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-react-jsx", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.17.3"],\
             ["@babel/plugin-transform-react-jsx-development", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.16.7"],\
             ["@emotion/babel-plugin", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.7.2"],\
-            ["@emotion/babel-plugin-jsx-pragmatic", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:0.1.5"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
             ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#file:./preact-preset-vite#./preact-preset-vite::hash=4526e0&locator=tauri-template%40workspace%3A."],\

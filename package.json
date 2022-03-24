@@ -19,7 +19,6 @@
     "@babel/plugin-transform-react-jsx": "^7.17.3",
     "@babel/plugin-transform-react-jsx-development": "^7.16.7",
     "@emotion/babel-plugin": "^11.7.2",
-    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
     "@preact/preset-vite": "./preact-preset-vite",
     "@tauri-apps/cli": "^1.0.0-rc.7",
     "@yarnpkg/sdks": "^2.6.0",

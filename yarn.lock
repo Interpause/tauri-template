@@ -229,7 +229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-jsx@npm:^7.12.13, @babel/plugin-syntax-jsx@npm:^7.16.7, @babel/plugin-syntax-jsx@npm:^7.2.0":
+"@babel/plugin-syntax-jsx@npm:^7.12.13, @babel/plugin-syntax-jsx@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-syntax-jsx@npm:7.16.7"
   dependencies:
@@ -325,17 +325,6 @@ __metadata:
   version: 9.1.0
   resolution: "@chevrotain/utils@npm:9.1.0"
   checksum: 3bf20cd22e2f5d64f9cfd968c6355e440abb833b8283a37ff67d1ba56a219f2c9f93a194f2c51befb9932475c6d1fa98376f2ace248c2e391639931e0305a783
-  languageName: node
-  linkType: hard
-
-"@emotion/babel-plugin-jsx-pragmatic@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@emotion/babel-plugin-jsx-pragmatic@npm:0.1.5"
-  dependencies:
-    "@babel/plugin-syntax-jsx": ^7.2.0
-  peerDependencies:
-    "@babel/core": ^7.0.0
-  checksum: d034e572d7803eced4e984ebb72908e19fc32e101b7a248d59d8506cbf17539c03a38dc02d51f8dd4c64a11b6a84f1f1b0ea3a10900cbcf621de0e8d86a12e79
   languageName: node
   linkType: hard
 
@@ -3818,7 +3807,6 @@ __metadata:
     "@babel/plugin-transform-react-jsx": ^7.17.3
     "@babel/plugin-transform-react-jsx-development": ^7.16.7
     "@emotion/babel-plugin": ^11.7.2
-    "@emotion/babel-plugin-jsx-pragmatic": ^0.1.5
     "@emotion/react": ^11.8.2
     "@emotion/styled": ^11.8.1
     "@preact/preset-vite": ./preact-preset-vite
