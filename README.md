@@ -42,3 +42,7 @@ In my webpack toolchain, I used a plugin to auto-generate index.html in the buil
 ### git submodules
 
 Typically cloning a git repo doesn't clone the submodules of the repo unless `--recursive` is used. In some cases, this is bad as code directly relies on the submodule being present. In our case, it doesn't matter as Yarn Zero-Installs keeps a cached version of it. That however means whenever the submodule is updated, `yarn` has to be run again to update it.
+
+### @types/react
+
+Guess what? React types are still needed for packages that use React-aliased-to-Preact to type properly.

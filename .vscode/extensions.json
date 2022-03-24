@@ -2,6 +2,7 @@
   "recommendations": [
     "arcanis.vscode-zipfs",
     "esbenp.prettier-vscode",
-    "lightyen.tailwindcss-intellisense-twin"
+    "lightyen.tailwindcss-intellisense-twin",
+    "styled-components.vscode-styled-components"
   ]
 }

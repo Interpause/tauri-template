@@ -21,6 +21,7 @@
     "@emotion/babel-plugin": "^11.7.2",
     "@preact/preset-vite": "./preact-preset-vite",
     "@tauri-apps/cli": "^1.0.0-rc.7",
+    "@types/react": "^17.0.42",
     "@yarnpkg/sdks": "^2.6.0",
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-transform-hook-names": "^1.0.2",

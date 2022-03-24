@@ -807,12 +807,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prop-types@npm:*":
+  version: 15.7.4
+  resolution: "@types/prop-types@npm:15.7.4"
+  checksum: 96bf951905a4e69cdaf3196c7063a8bfff8f0e1dd9b90bbe9fdd54a67425cf8765d08856bf0e750a13238023117b033759a25aa9060fb668cdc4b959624e720e
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17.0.42":
+  version: 17.0.42
+  resolution: "@types/react@npm:17.0.42"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 56d66213fa98afd8b393c3a01779abb4f2e291cd9b8633c8d7ed5da4cc56a7b1947855c487c47c854b06a28a530b543418ef9b00ab1896bfbe6e03acbb310fa9
+  languageName: node
+  linkType: hard
+
 "@types/responselike@npm:*, @types/responselike@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/responselike@npm:1.0.0"
   dependencies:
     "@types/node": "*"
   checksum: f6e2bc61d2fbeabfd6c5df826e87832aa89f7b190dc993503ff1bbc19608ba75223f4c41c22bfb9500b66e36bf00e7a2c2c0af9e6abba6c2e5bad808eb324d2c
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.16.2
+  resolution: "@types/scheduler@npm:0.16.2"
+  checksum: 223d9b12d1eff3fe857e7eb967d640707c2a76ba1126633bae88dce7693301ea8edcce83586a17134a1822f01265f715809860085547b01db8de6a90f5165706
   languageName: node
   linkType: hard
 
@@ -3812,6 +3837,7 @@ __metadata:
     "@preact/preset-vite": ./preact-preset-vite
     "@tauri-apps/api": ^1.0.0-rc.2
     "@tauri-apps/cli": ^1.0.0-rc.7
+    "@types/react": ^17.0.42
     "@yarnpkg/sdks": ^2.6.0
     babel-plugin-macros: ^3.1.0
     babel-plugin-transform-hook-names: ^1.0.2
