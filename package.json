@@ -1,38 +1,25 @@
 {
-  "name": "tauri-template",
+  "name": "tauri-template-monorepo",
   "private": true,
   "version": "0.1.0",
-  "description": "very advanced template for nice things",
+  "description": "very advanced template for cross-platform app with backend",
   "author": "John-Henry Lim <hyphen@interpause.dev> (https://interpause.dev/)",
   "repository": "https://github.com/Interpause/tauri-template.git",
   "license": "MIT",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.8.2",
-    "@emotion/styled": "^11.8.1",
-    "@tauri-apps/api": "^1.0.0-rc.2",
-    "preact": "^10.6.6",
-    "twin.macro": "^2.8.2"
+  "workspaces": {
+    "packages": [
+      "frontend",
+      "backend",
+      "common"
+    ]
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/plugin-transform-react-jsx": "^7.17.3",
-    "@babel/plugin-transform-react-jsx-development": "^7.16.7",
-    "@emotion/babel-plugin": "^11.7.2",
-    "@preact/preset-vite": "git+https://github.com/Interpause/preact-preset-vite#68c10dfa46a38bd6d20815163179823cf8a78a72",
-    "@tauri-apps/cli": "^1.0.0-rc.7",
-    "@types/react": "^17.0.42",
     "@yarnpkg/sdks": "^2.6.0",
-    "babel-plugin-macros": "^3.1.0",
-    "babel-plugin-transform-hook-names": "^1.0.2",
     "prettier": "^2.6.0",
-    "typescript": "^4.6.2",
-    "vite": "^2.8.6",
-    "vite-plugin-full-reload": "^1.0.0"
+    "typescript": "^4.6.2"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "preact": "^10.6.6"
+  }
 }

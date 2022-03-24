@@ -1,0 +1,10 @@
+{
+  "name": "tauri-template-common",
+  "private": true,
+  "version": "0.1.0",
+  "description": "common files such as interfaces shared between backend and frontend",
+  "author": "John-Henry Lim <hyphen@interpause.dev> (https://interpause.dev/)",
+  "repository": "https://github.com/Interpause/tauri-template.git",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0"
+}

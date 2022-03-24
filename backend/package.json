@@ -1,0 +1,10 @@
+{
+  "name": "tauri-template-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "very advanced template for backend code",
+  "author": "John-Henry Lim <hyphen@interpause.dev> (https://interpause.dev/)",
+  "repository": "https://github.com/Interpause/tauri-template.git",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0"
+}
