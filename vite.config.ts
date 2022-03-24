@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import preact from '@preact/preset-vite'
+import FullReload from 'vite-plugin-full-reload'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
@@ -23,6 +24,11 @@ export default defineConfig(({ command, mode }) => {
           ],
         },
       }),
+      !isProd && FullReload(['src/**/*']),
     ],
+    server: {
+      open: true,
+      hmr: false,
+    },
   }
 })

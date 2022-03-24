@@ -50,7 +50,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.0"],\
             ["twin.macro", "npm:2.8.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
-            ["vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:2.8.6"]\
+            ["vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:2.8.6"],\
+            ["vite-plugin-full-reload", "npm:1.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4523,7 +4524,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.0"],\
             ["twin.macro", "npm:2.8.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
-            ["vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:2.8.6"]\
+            ["vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:2.8.6"],\
+            ["vite-plugin-full-reload", "npm:1.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4723,6 +4725,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "less",\
             "sass",\
             "stylus"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vite-plugin-full-reload", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/vite-plugin-full-reload-npm-1.0.0-7b85b26d60-181dbc1408.zip/node_modules/vite-plugin-full-reload/",\
+          "packageDependencies": [\
+            ["vite-plugin-full-reload", "npm:1.0.0"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["picomatch", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\

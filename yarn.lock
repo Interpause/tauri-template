@@ -3157,7 +3157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2, picomatch@npm:^2.2.3":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2, picomatch@npm:^2.2.3, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 6ba5938c24af2c5918e94b39aa0ad48d71f2c30634de69d46e0bd32feb666de4e909406db6ffb78f98d39ef450d6a41b6fa3954dc3659d7b2b750766c1261e5e
@@ -3846,6 +3846,7 @@ __metadata:
     twin.macro: ^2.8.2
     typescript: ^4.6.2
     vite: ^2.8.6
+    vite-plugin-full-reload: ^1.0.0
   languageName: unknown
   linkType: soft
 
@@ -3997,6 +3998,16 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 6a88ed8344d07f2324b304ee36def365d967953b5a9c15baa3213eb3909e86a7da1ee70a4c2133e80c23d6c1987590e9c3c57d874e20a124f9e41620b462fa57
+  languageName: node
+  linkType: hard
+
+"vite-plugin-full-reload@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "vite-plugin-full-reload@npm:1.0.0"
+  dependencies:
+    picocolors: ^1.0.0
+    picomatch: ^2.3.1
+  checksum: 181dbc14087bf48219648dadf710256cee7bc5d192a0b3b86d2b85084af722269c7ba062c0a889c50e0a501e69d1a1f181fc6624549b6ba4e85e8be66a9c0764
   languageName: node
   linkType: hard
 
