@@ -20,15 +20,13 @@ Figuring out how to use [Tauri](https://tauri.studio/), then configuring it to m
 
 ### @preact/preset-vite
 
-Apparently it uses Babel's programmatic API to transform the code. Does not expose allowing user to further customize Babel configuration though. Also it already contains the Preact alias to React. By using a fork with said access to Babel, macros work again.
+Apparently it uses Babel's programmatic API to transform the code. Does not expose allowing user to further customize Babel configuration though. Also it already contains the Preact alias to React.
 
-#### modifying @preact/preset-vite
+I created a fork of it with the following features:
 
-When modified, 3 steps needed to properly update it:
-
-1. commit new changes in @preact/preset vite
-2. re-run `npm run build` in @preact/preset_vite folder
-3. run `yarn` to update package used
+- make Babel config accessible so macros work
+- remove conflicting Babel plugin to allow Emotion to work
+- change npm scripts to allow installing from git without problems
 
 ### Note on ESM Dependency Resolution
 
