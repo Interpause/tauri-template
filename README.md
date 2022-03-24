@@ -1,15 +1,14 @@
 # tauri-template
 
-Figuring out how to use Tauri, then configuring it to match my development style. May evolve to a monorepo at some point.
+Figuring out how to use [Tauri](https://tauri.studio/), then configuring it to match my development style. See [Decisions](#decisions) for what template has been preconfigured with. It wasn't easy to hack things to work. May evolve to become a multiplatform + backend monorepo at some point.
 
 ## Decisions
 
 - VSCode-first support
-- Yarn 2 Zero-Installs
-- Vite
-- Babel
-- Preact framework (Typescript)
-- twin.macro + Emotion CSS-in-JS
+- [Yarn 2 Zero-Installs](https://yarnpkg.com/features/zero-installs)
+- [Vite](https://vitejs.dev/) + [Babel](https://babeljs.io/)
+- [Preact](https://preactjs.com/) framework (Typescript)
+- [twin.macro](https://github.com/ben-rogerson/twin.macro) + [Emotion](https://emotion.sh/docs/introduction) CSS-in-JS
 
 ## Recommendations
 
@@ -46,3 +45,7 @@ Typically cloning a git repo doesn't clone the submodules of the repo unless `--
 ### @types/react
 
 Guess what? React types are still needed for packages that use React-aliased-to-Preact to type properly.
+
+### HMR
+
+Hot Module Replacement is broken. It detects when changes are made correctly, sends the updated source code correctly, and the updated code is received correctly. However, it doesn't seem to replace the page contents with the new code afterwards. It is likely caused by Emotion's use of Higher Order Components (HOC), which may have glitches for Preact and Prefresh. Either ways, HMR is a difficult and often buggy thing since app state is retained between changes, potentially leading to corruption. Live refresh is probably better in most cases especially since vite builds faster than webpack.
