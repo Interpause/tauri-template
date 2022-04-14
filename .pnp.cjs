@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/babel-plugin", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.7.2"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72"],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88"],\
             ["@tauri-apps/api", "npm:1.0.0-rc.2"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.7"],\
             ["@types/react", "npm:17.0.42"],\
@@ -746,21 +746,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@preact/preset-vite", [\
-        ["https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72", {\
-          "packageLocation": "./.yarn/cache/@preact-preset-vite-https-751d4e3535-58f1159aec.zip/node_modules/@preact/preset-vite/",\
+        ["https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88", {\
+          "packageLocation": "./.yarn/cache/@preact-preset-vite-https-993ee701cb-075ef040d8.zip/node_modules/@preact/preset-vite/",\
           "packageDependencies": [\
-            ["@preact/preset-vite", "https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72"]\
+            ["@preact/preset-vite", "https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72", {\
-          "packageLocation": "./.yarn/__virtual__/@preact-preset-vite-virtual-c8625e004f/0/cache/@preact-preset-vite-https-751d4e3535-58f1159aec.zip/node_modules/@preact/preset-vite/",\
+        ["virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88", {\
+          "packageLocation": "./.yarn/__virtual__/@preact-preset-vite-virtual-bec9b4658f/0/cache/@preact-preset-vite-https-993ee701cb-075ef040d8.zip/node_modules/@preact/preset-vite/",\
           "packageDependencies": [\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72"],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@babel/plugin-transform-react-jsx", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.17.3"],\
             ["@babel/plugin-transform-react-jsx-development", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:7.16.7"],\
-            ["@prefresh/vite", "virtual:c8625e004fdfb57b89bab9f38d6ea305e93deaef2a62d904c66fd0aef19f49cbab7a27b57cf77c2e42ffc6b4609ed03fdd16ec44b8097aadedc3dff5d3d0d307#npm:2.2.8"],\
+            ["@prefresh/vite", "virtual:bec9b4658ff2069abbdf29dd708695fb87b381928b0d7419813e900820cece0c9c3a1322065c54132e2bc5769821db1a3ed3f10cb3614ba8817ad2199fdcb097#npm:2.2.8"],\
             ["@rollup/pluginutils", "npm:4.2.0"],\
             ["@types/babel__core", null],\
             ["@types/vite", null],\
@@ -796,10 +796,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:eabe229b72ad054b9e8a306186e08f5fdf78b9cb771df440eb0510e49117dd9c43d13f413c9f7a882aeb4907ca801077cb129909f500d06c2b507c3e7a2f50bb#npm:1.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/@prefresh-core-virtual-26dfd5a71e/0/cache/@prefresh-core-npm-1.3.4-7ed00793e2-31c021bf0e.zip/node_modules/@prefresh/core/",\
+        ["virtual:ec3f25114e9437d7c32c2671c3e77e7606589ef70a621d2132c7dd583aa8658b58754a61aedc5994aa68b1ccd3f6f45c016cccfd87fa655314d2a95298e96e92#npm:1.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/@prefresh-core-virtual-c92a93afe6/0/cache/@prefresh-core-npm-1.3.4-7ed00793e2-31c021bf0e.zip/node_modules/@prefresh/core/",\
           "packageDependencies": [\
-            ["@prefresh/core", "virtual:eabe229b72ad054b9e8a306186e08f5fdf78b9cb771df440eb0510e49117dd9c43d13f413c9f7a882aeb4907ca801077cb129909f500d06c2b507c3e7a2f50bb#npm:1.3.4"],\
+            ["@prefresh/core", "virtual:ec3f25114e9437d7c32c2671c3e77e7606589ef70a621d2132c7dd583aa8658b58754a61aedc5994aa68b1ccd3f6f45c016cccfd87fa655314d2a95298e96e92#npm:1.3.4"],\
             ["@types/preact", null],\
             ["preact", null]\
           ],\
@@ -827,13 +827,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c8625e004fdfb57b89bab9f38d6ea305e93deaef2a62d904c66fd0aef19f49cbab7a27b57cf77c2e42ffc6b4609ed03fdd16ec44b8097aadedc3dff5d3d0d307#npm:2.2.8", {\
-          "packageLocation": "./.yarn/__virtual__/@prefresh-vite-virtual-eabe229b72/0/cache/@prefresh-vite-npm-2.2.8-1babfb4682-97198d699f.zip/node_modules/@prefresh/vite/",\
+        ["virtual:bec9b4658ff2069abbdf29dd708695fb87b381928b0d7419813e900820cece0c9c3a1322065c54132e2bc5769821db1a3ed3f10cb3614ba8817ad2199fdcb097#npm:2.2.8", {\
+          "packageLocation": "./.yarn/__virtual__/@prefresh-vite-virtual-ec3f25114e/0/cache/@prefresh-vite-npm-2.2.8-1babfb4682-97198d699f.zip/node_modules/@prefresh/vite/",\
           "packageDependencies": [\
-            ["@prefresh/vite", "virtual:c8625e004fdfb57b89bab9f38d6ea305e93deaef2a62d904c66fd0aef19f49cbab7a27b57cf77c2e42ffc6b4609ed03fdd16ec44b8097aadedc3dff5d3d0d307#npm:2.2.8"],\
+            ["@prefresh/vite", "virtual:bec9b4658ff2069abbdf29dd708695fb87b381928b0d7419813e900820cece0c9c3a1322065c54132e2bc5769821db1a3ed3f10cb3614ba8817ad2199fdcb097#npm:2.2.8"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@prefresh/babel-plugin", "npm:0.4.3"],\
-            ["@prefresh/core", "virtual:eabe229b72ad054b9e8a306186e08f5fdf78b9cb771df440eb0510e49117dd9c43d13f413c9f7a882aeb4907ca801077cb129909f500d06c2b507c3e7a2f50bb#npm:1.3.4"],\
+            ["@prefresh/core", "virtual:ec3f25114e9437d7c32c2671c3e77e7606589ef70a621d2132c7dd583aa8658b58754a61aedc5994aa68b1ccd3f6f45c016cccfd87fa655314d2a95298e96e92#npm:1.3.4"],\
             ["@prefresh/utils", "npm:1.1.3"],\
             ["@rollup/pluginutils", "npm:4.2.0"],\
             ["@types/preact", null],\
@@ -4513,7 +4513,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/babel-plugin", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.7.2"],\
             ["@emotion/react", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.2"],\
             ["@emotion/styled", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:11.8.1"],\
-            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=68c10dfa46a38bd6d20815163179823cf8a78a72"],\
+            ["@preact/preset-vite", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#https://github.com/Interpause/preact-preset-vite.git#commit=90069cf5800cfeca800b5ecb48d3c32638e82a88"],\
             ["@tauri-apps/api", "npm:1.0.0-rc.2"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.7"],\
             ["@types/react", "npm:17.0.42"],\
