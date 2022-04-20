@@ -50,8 +50,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["preact", "npm:10.6.6"],\
-            ["prettier", "npm:2.6.0"],\
-            ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"]\
+            ["prettier", "npm:2.6.1"],\
+            ["typescript", "patch:typescript@npm%3A4.6.3#optional!builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3847,10 +3847,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.6.0", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.6.0-fb29989f51-2feed4501a.zip/node_modules/prettier/",\
+        ["npm:2.6.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.6.1-94a3731152-9458c475d1.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.6.0"]\
+            ["prettier", "npm:2.6.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4539,7 +4539,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-transform-hook-names", "virtual:84d4dd19d5b01a14c901d384fac20a963ace0a326b7bc2aca4f495c6429ea1ab02b64456f99e15685e8614a677eadbf82426cd59b634e9ec92af52f3c10565ea#npm:1.0.2"],\
             ["preact", "npm:10.6.6"],\
             ["twin.macro", "npm:2.8.2"],\
-            ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
+            ["typescript", "patch:typescript@npm%3A4.6.3#optional!builtin<compat/typescript>::version=4.6.3&hash=bda367"],\
             ["vite", "virtual:84d4dd19d5b01a14c901d384fac20a963ace0a326b7bc2aca4f495c6429ea1ab02b64456f99e15685e8614a677eadbf82426cd59b634e9ec92af52f3c10565ea#npm:2.8.6"],\
             ["vite-plugin-full-reload", "npm:1.0.0"]\
           ],\
@@ -4553,8 +4553,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tauri-template-monorepo", "workspace:."],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["preact", "npm:10.6.6"],\
-            ["prettier", "npm:2.6.0"],\
-            ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"]\
+            ["prettier", "npm:2.6.1"],\
+            ["typescript", "patch:typescript@npm%3A4.6.3#optional!builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4677,10 +4677,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-f68d81a651-55110ab105.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.6.3#optional!builtin<compat/typescript>::version=4.6.3&hash=bda367", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-e15d610cbb-694ec10096.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.6.2#optional!builtin<compat/typescript>::version=4.6.2&hash=bda367"]\
+            ["typescript", "patch:typescript@npm%3A4.6.3#optional!builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "HARD"\
         }]\
