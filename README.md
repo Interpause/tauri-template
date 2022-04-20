@@ -43,7 +43,3 @@ Typically cloning a git repo doesn't clone the submodules of the repo unless `--
 ### @types/react
 
 Guess what? React types are still needed for packages that use React-aliased-to-Preact to type properly.
-
-### HMR
-
-Hot Module Replacement is broken. It detects when changes are made correctly, sends the updated source code correctly, and the updated code is received correctly. However, it doesn't seem to replace the page contents with the new code afterwards. It is likely caused by Emotion's use of Higher Order Components (HOC), which may have glitches for Preact and Prefresh. Either ways, HMR is a difficult and often buggy thing since app state is retained between changes, potentially leading to corruption. Live refresh is probably better in most cases especially since vite builds faster than webpack.
