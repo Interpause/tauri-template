@@ -27,7 +27,6 @@ export default defineConfig(({ command, mode }) => {
       !isProd && FullReload(['src/**/*']),
     ],
     server: {
-      open: true,
       hmr: false,
     },
   }

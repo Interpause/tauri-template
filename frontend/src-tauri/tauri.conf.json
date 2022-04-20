@@ -1,13 +1,13 @@
 {
   "package": {
-    "productName": "tauri-template",
+    "productName": "tauri-template-tauri",
     "version": "0.1.0"
   },
   "build": {
     "distDir": "../dist",
     "devPath": "http://localhost:3000",
-    "beforeDevCommand": "npm run dev",
-    "beforeBuildCommand": "npm run build"
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build"
   },
   "tauri": {
     "bundle": {
