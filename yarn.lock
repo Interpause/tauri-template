@@ -1849,14 +1849,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-linux-64@npm:^0.14.48":
-  version: 0.14.48
-  resolution: "esbuild-linux-64@npm:0.14.48"
-  checksum: e5a1cce91e03c345e0fe6528b1a853f2eb18a317fed798536094354b88da29a79d007081b368fd23ea764abf894d30a4fa4160f5aaa1299be273f3fd79084bba
-  conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
 "esbuild-linux-arm64@npm:0.14.36":
   version: 0.14.36
   resolution: "esbuild-linux-arm64@npm:0.14.36"
@@ -1930,14 +1922,6 @@ __metadata:
 "esbuild-windows-64@npm:0.14.36":
   version: 0.14.36
   resolution: "esbuild-windows-64@npm:0.14.36"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"esbuild-windows-64@npm:^0.14.48":
-  version: 0.14.48
-  resolution: "esbuild-windows-64@npm:0.14.48"
-  checksum: 2769bd96b757a9a3c1061020328a66ca3eb83b062aacc7b804fdf9da9edba3a5f3ace11a90c6fbdbecdc887aec0e3a0d926ff80e51745d6e36198bed591b2397
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3877,8 +3861,6 @@ __metadata:
     "@yarnpkg/sdks": ^2.6.0
     babel-plugin-macros: ^3.1.0
     babel-plugin-transform-hook-names: ^1.0.2
-    esbuild-linux-64: ^0.14.48
-    esbuild-windows-64: ^0.14.48
     preact: ^10.8.2
     prettier: ^2.7.1
     twin.macro: ^2.8.2

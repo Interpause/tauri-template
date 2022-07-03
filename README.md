@@ -28,17 +28,28 @@ I created a fork of it with the following features:
 - remove conflicting Babel plugin to allow Emotion to work
 - change npm scripts to allow installing from git without problems
 
+<https://github.com/preactjs/preset-vite/pull/47> has already been approved, so its a matter of time till the fork is no longer needed.
+
 ### Note on ESM Dependency Resolution
 
-Yarn 2 PnP ESM Support is as experimental as NodeJS support for ESM. @preact/preset-vite declares certain Babel plugins as dependencies, but yarn is unable to resolve these dependencies correctly. For now, installing these plugins as devDependencies (despite the fact they aren't peerDependencies of @preact/preset-vite) fixes this, but seriously.
+Yarn 2 PnP ESM Support is as experimental as NodeJS support for ESM. `@preact/preset-vite` declares certain Babel plugins as dependencies, but yarn is unable to resolve these dependencies correctly. For now, installing these plugins as devDependencies (despite the fact they aren't peerDependencies of `@preact/preset-vite`) fixes this, but seriously.
+
+### Multi-platform Zero Installs
+
+Certain packages resolve differentially depending on the platform, be it `win32` or `linux`. For example, `esbuild` depends on `esbuild-linux-64` on `linux` but instead depends on `esbuild-windows-64` on `win32`. Hence, when switching between platforms, it has to retrieve said dependencies from online (violating Zero Installs), and will delete dependencies meant for other platforms. The official way to solve this is to specify `supportedArchitectures` in `.yarnrc.yml`:
+
+```yaml
+# .yarnrc.yml
+supportedArchitectures:
+  os:
+    - linux
+    - win32
+    - darwin
+```
 
 ### index.html
 
 In my webpack toolchain, I used a plugin to auto-generate index.html in the build. I am not used to seeing or configuring it, but apparently in Vite it isn't supposed to be hidden? Could not find a plugin to auto-generate it...
-
-### git submodules
-
-Typically cloning a git repo doesn't clone the submodules of the repo unless `--recursive` is used. In some cases, this is bad as code directly relies on the submodule being present. In our case, it doesn't matter as Yarn Zero-Installs keeps a cached version of it. That however means whenever the submodule is updated, `yarn` has to be run again to update it.
 
 ### @types/react
 

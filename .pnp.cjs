@@ -46,8 +46,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-transform-hook-names", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:1.0.2"],\
-            ["esbuild-linux-64", "npm:0.14.48"],\
-            ["esbuild-windows-64", "npm:0.14.48"],\
             ["preact", "npm:10.8.2"],\
             ["prettier", "npm:2.7.1"],\
             ["twin.macro", "npm:2.8.2"],\
@@ -2306,13 +2304,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild-linux-64", "npm:0.14.36"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:0.14.48", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-linux-64-npm-0.14.48-a570f20508/node_modules/esbuild-linux-64/",\
-          "packageDependencies": [\
-            ["esbuild-linux-64", "npm:0.14.48"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["esbuild-linux-arm", [\
@@ -2410,13 +2401,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/esbuild-windows-64-npm-0.14.36-0ff900b59d/node_modules/esbuild-windows-64/",\
           "packageDependencies": [\
             ["esbuild-windows-64", "npm:0.14.36"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:0.14.48", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-windows-64-npm-0.14.48-9ba395ab9d/node_modules/esbuild-windows-64/",\
-          "packageDependencies": [\
-            ["esbuild-windows-64", "npm:0.14.48"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4552,8 +4536,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-transform-hook-names", "virtual:957ac5708fc8ace942a3558ff53f072e00eefa6caae27f86e7c58bab1b9c846f648fc5b80e7ca40e12ec312d2bde031a1666284703894968a0633598989c4b98#npm:1.0.2"],\
-            ["esbuild-linux-64", "npm:0.14.48"],\
-            ["esbuild-windows-64", "npm:0.14.48"],\
             ["preact", "npm:10.8.2"],\
             ["prettier", "npm:2.7.1"],\
             ["twin.macro", "npm:2.8.2"],\
